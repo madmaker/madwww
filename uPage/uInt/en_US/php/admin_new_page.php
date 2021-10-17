@@ -1,0 +1,22 @@
+<?php
+$uInt_uPage_admin_new_page["Text on top"]='(Text on top)';//Название текста на странице. Этот текст создается автоматически.(Текст сверху)
+$uInt_uPage_admin_new_page["row 2. text in left col"]='(Row 2. Text in left column)';//Название текста на странице. Этот текст создается автоматически.(Ряд 2. Текст в левой колонке)
+$uInt_uPage_admin_new_page["row 2. img in right col"]='(Row 2. Image in right column)';//Название текста на странице. Этот текст создается автоматически.(Ряд 2. Изображение в правой колонке)
+$uInt_uPage_admin_new_page["row 4. img in left col"]='(Row 4. Image in left column)';//Название текста на странице. Этот текст создается автоматически.(Ряд 4. Изображение в левой колонке)
+$uInt_uPage_admin_new_page["row 4. text in right col"]='(Row 4. Text in right column)';//Название текста на странице. Этот текст создается автоматически.(Ряд 4. Текст в правой колонке)
+$uInt_uPage_admin_new_page["row 2. text"]='(Row 2. Text)';//Название текста на странице. Этот текст создается автоматически.(Ряд 2. Текст)
+$uInt_uPage_admin_new_page["row 4. img in right col"]='(Row 4. Image in right column)';//Название текста на странице. Этот текст создается автоматически.(Ряд 4. Изображение в правой колонке)
+$uInt_uPage_admin_new_page["row 1. img in left col"]='(Row 1. Image in left column)';//Название текста на странице. Этот текст создается автоматически.(Ряд 1. Изображение в левой колонке)
+$uInt_uPage_admin_new_page["row 1. img in right col"]='(Row 1. Image in right column)';//Название текста на странице. Этот текст создается автоматически.(Ряд 1. Изображение в правой колонке)
+$uInt_uPage_admin_new_page["row 2. title and subtitle"]='(Row 2. Title and subtitle)';//Название текста на странице. Этот текст создается автоматически.(Ряд 2. Заголовок и подзаголовок)
+$uInt_uPage_admin_new_page["row 3. text"]='(Row 3. Text)';//Название текста на странице. Этот текст создается автоматически.(Ряд 3. Текст)
+$uInt_uPage_admin_new_page["row 1. text in left col"]='(Row 1. Text in left column)';//Название текста на странице. Этот текст создается автоматически.(Ряд 1. Текст в левой колонке)
+$uInt_uPage_admin_new_page["form of page number"]='Form of page #';//Название текста на странице. Этот текст создается автоматически.Форма страницы #
+$uInt_uPage_admin_new_page["form field Name"]='Name';//Название поля в форме, созданной по шаблону страницыИмя
+$uInt_uPage_admin_new_page["form field Name placeholder"]='John';//Название поля в форме, созданной по шаблону страницыИван
+$uInt_uPage_admin_new_page["form field Last Name"]='Last name';//Название поля в форме, созданной по шаблону страницыФамилия
+$uInt_uPage_admin_new_page["form field Last Name placeholder"]='Johnson';//Название поля в форме, созданной по шаблону страницыИванов
+$uInt_uPage_admin_new_page["form field Email"]='E-mail';//Название поля в форме, созданной по шаблону страницыE-mail
+$uInt_uPage_admin_new_page["form field Phone"]='Phone';//Название поля в форме, созданной по шаблону страницыТелефон
+$uInt_uPage_admin_new_page["form field Message"]='Message';//Название поля в форме, созданной по шаблону страницыСообщение
+$uInt_uPage_admin_new_page["form field Message placeholder"]='Your message here';//Название поля в форме, созданной по шаблону страницыВаше сообщение здесь

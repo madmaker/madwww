@@ -1,0 +1,23 @@
+<?php
+$uInt_dashboard_common["uAuth/avatars"]='Пользователи: Аватарки';//Название папки на диске
+$uInt_dashboard_common["uCat/art_avatars"]='Каталог: Изображения статей';//Название папки на диске
+$uInt_dashboard_common["uCat/cat_avatars"]='Каталог: Изображения категорий';//Название папки на диске
+$uInt_dashboard_common["uCat/item_avatars"]='Каталог: Изображения товаров';//Название папки на диске
+$uInt_dashboard_common["uCat/item_pictures"]='Каталог: Дополнительные изображения товаров';//Название папки на диске
+$uInt_dashboard_common["uCat/sect_avatars"]='Каталог: Изображения разделов';//Название папки на диске
+$uInt_dashboard_common["uDrive/files"]='Диск: Файлы';//Название папки на диске
+$uInt_dashboard_common["uEditor/files"]='Тексты: Файлы';//Название папки на диске
+$uInt_dashboard_common["uEditor/page_avatars"]='Тексты: Изображения превью';//Название папки на диске
+$uInt_dashboard_common["uEvents/events_files"]='События: Файлы';//Название папки на диске
+$uInt_dashboard_common["uEvents/events_types_files"]='События: Файлы к типам событий';//Название папки на диске
+$uInt_dashboard_common["uForms/field_files"]='Формы: Файлы полей форм';//Название папки на диске
+$uInt_dashboard_common["uForms/form_files"]='Формы: Файлы информации о форме';//Название папки на диске
+$uInt_dashboard_common["uKnowbase/files"]='База знаний: Файлы';//Название папки на диске
+$uInt_dashboard_common["uNavi/item_icons"]='Меню: Изображения пунктов меню';//Название папки на диске
+$uInt_dashboard_common["uPage/preview_images"]='Страницы: Изображения превью страниц';//Название папки на диске
+$uInt_dashboard_common["uPeople/avatars"]='Наши люди: Аватарки';//Название папки на диске
+$uInt_dashboard_common["uSlider/files"]='Слайдеры: Файлы';//Название папки на диске
+$uInt_dashboard_common["uSlider/slides_bg"]='Слайдеры: Фоны слайдов';//Название папки на диске
+$uInt_dashboard_common["uSubscr/files"]='Рассылки: Файлы';//Название папки на диске
+$uInt_dashboard_common["uSupport/com_avatars"]='Техподдержка: Изображения компаний';//Название папки на диске
+$uInt_dashboard_common["uSupport/msgs_files"]='Техподдержка: Файлы в сообщениях';//Название папки на диске

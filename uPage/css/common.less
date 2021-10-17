@@ -1,0 +1,126 @@
+.u235_edit_mode header {/*Контейнер этого элемента*/
+  margin-top: 100px;
+}
+
+/*admin_pages*/
+#uPage_admin_pages_list ul {list-style: none;}
+#uPage_admin_pages_list li {list-style: none;}
+.uPage_admin_pages_list_draggable_parent .btn {opacity: 0.1}
+.uPage_admin_pages_list_draggable_parent.touchscreen .btn {opacity: 1}
+.uPage_admin_pages_list_draggable_parent:hover .btn {opacity: 1}
+.uPage_admin_pages_list_draggable_parent {border-left:dotted gray 1px;}
+.uPage_admin_pages_list_draggable_parent h3 {cursor: pointer;}
+.uPage_admin_pages_folder {border-left:none;}
+
+/*Structure. Admin*/
+#uPage_add_art_cnt ul,
+#uPage_add_art_cnt li {list-style: none;}
+
+.uPage_row {
+  margin-right: 0;
+}
+.uPage_row,
+.uPage_col,
+.uPage_el {
+  position: relative;
+}
+
+.uPage_row_content_centered {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .uPage_row_content_centered {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .uPage_row_content_centered {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .uPage_row_content_centered {
+    width: 1170px;
+  }
+}
+
+/*===== ELEMENTS =====*/
+/*=== uRubrics === */
+/*= owl =*/
+.owl-carousel img.pull-right,
+.owl-carousel img.pull-left {margin: 5px; max-width: 100%;}
+
+/*uNavi*/
+/*.uPage_menu {display: table;}*/
+
+
+.uPage_common_template_ex {padding:5px; float:left; display: table; margin: 5px;}
+.uPage_common_template_ex img {margin: 0 auto; max-height: 200px;}
+
+
+.uCat_list .thumbnail {/*Контейнер этого элемента*/
+  height: 200px;
+  overflow: hidden;
+}
+
+.sects_list .sect_title{
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.cats_list .cat_without_descr .cat_title {
+  font-size: 1.2em; font-weight: normal; text-align: center;
+}
+
+.col-md-4.prev_price {
+  padding: 0;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.1em;
+  margin-top: 0.2em;
+}
+.col-md-4.buy_btn{
+  padding: 0;
+  text-align: right;
+}
+
+
+#uPage_content_page_timestamp {
+  float: right;
+  clear: both;
+  margin: 10px 0;
+}
+
+#uPage_content_page_timestamp {
+  float: right;
+  clear: both;
+  margin: 10px 0;
+}
+
+
+/*ADD ROW,COL,EL Buttons*/
+.add_el_btn {
+  background: green;
+}
+.add_col_btn,
+.add_el_to_empty_col_btn {
+  background: blue;
+}
+.add_row_btn,
+.add_el_to_empty_row_btn {
+  background: red;
+}
+.add_el_btn span,
+.add_col_btn span,
+.add_row_btn span {
+  color:white!important;
+}
+.add_el_btn_bottom {
+  margin-left:10px;
+}
+.add_el_btn_top {
+  margin-left:-10px;
+}

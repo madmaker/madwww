@@ -1,0 +1,23 @@
+<?php
+$uInt_creator_inline_create["Create - dg title"]='Create';//Заголовок диалога создания элементов
+$uInt_creator_inline_create["Content - mod title"]='Content';//Заголовок блока "Контент" в диалоге создания элементов
+$uInt_creator_inline_create["Article"]='Text';//Название элемента "Статья" в блоке "Контент" в диалоге создания элементов
+$uInt_creator_inline_create["Page"]='Page';//Название элемента "Страница" в блоке "Контент" в диалоге создания элементов
+$uInt_creator_inline_create["Rubric"]='Section';//Название элемента "Рубрика" в блоке "Контент" в диалоге создания элементов
+$uInt_creator_inline_create["Menu"]='Menu';//Название элемента "Меню" в блоке "Контент" в диалоге создания элементов
+$uInt_creator_inline_create["Form"]='Form';//Название элемента "Форма" в блоке "Контент" в диалоге создания элементов
+$uInt_creator_inline_create["Slider OWL-carousel"]='Slider OWL-carousel';//Название элемента "Слайдер OWL" в блоке "Контент" в диалоге создания элементов
+$uInt_creator_inline_create["Slider bootstrap-carousel"]='Slider Bootstrap-carousel';//Название элемента "Слайдер Bootstrap" в блоке "Контент" в диалоге создания элементов
+$uInt_creator_inline_create["Events - mod title"]='Events';//Заголовок блока "События" в диалоге создания элементов
+$uInt_creator_inline_create["Event"]='Event';//Название элемента "Событие" в блоке "События" в диалоге создания элементов
+$uInt_creator_inline_create["Events type"]='Event type';//Название элемента "Тип событий" в блоке "События" в диалоге создания элементов
+$uInt_creator_inline_create["Catalog - mod title"]='Catalog';//Заголовок блока "Каталог" в диалоге создания элементов
+$uInt_creator_inline_create["Item"]='Item';//Название элемента "Товар" в блоке "Каталог" в диалоге создания элементов
+$uInt_creator_inline_create["Category"]='Category';//Название элемента "Категория" в блоке "Каталог" в диалоге создания элементов
+$uInt_creator_inline_create["Section"]='Section';//Название элемента "Раздел" в блоке "Каталог" в диалоге создания элементов
+$uInt_creator_inline_create["Article about item"]='Article about item';//Название элемента "Статья о товаре" в блоке "Каталог" в диалоге создания элементовнтов
+$uInt_creator_inline_create["Help desk - mod - title"]='Help Desk';//Заголовок блока "Техподдержка" в диалоге создания элементов
+$uInt_creator_inline_create["Request"]='Request';//Название элемента "Запрос" в блоке "Техподдержка" в диалоге создания элементовнтов
+$uInt_creator_inline_create["Company"]='Company';//Название элемента "Компания" в блоке "Техподдержка" в диалоге создания элементовнтов
+$uInt_creator_inline_create["Knowledge base - mod title"]='Knowledge base';//Заголовок блока "База знаний" в диалоге создания элементов
+$uInt_creator_inline_create["Solution"]='Solution';//Название элемента "Решение" в блоке "База знаний" в диалоге создания элементовнтов

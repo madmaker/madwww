@@ -1,0 +1,32 @@
+<?php
+$file_path="smtp/dashboard.php";
+$this->dictionary[$file_path]=array(
+    'Page Title'=>'SMTP. Dashboard',
+    'You are not authorized'=>'You are not authorized',
+    'Please sign in'=>'Please sign in',
+    'Sign in'=>'Sign in',
+    'Forbidden'=>'Forbidden',
+    'You do not have sufficient permissions to access this page'=>'You do not have sufficient permissions to access this page',
+    'Dashboard'=>'Dashboard',
+    'Profile'=>'Profile',
+    'Switched on'=>'On',
+    'Switch off btn'=>'Switch off',
+    'MAD SFTP Description 1'=>'MAD SMTP allows you to send emails from website or application using smtp-server and your email account.',
+    'MAD SFTP Description 2'=>'It provides more reliable delivery of messages.',
+    'API Doc'=>'API Documentation',
+    'API Doc description'=>'Full description of API',
+    'Tokens'=>'API Tokens',
+    'Tokens description'=>'For applications and servers',
+    'Tokens txt'=>'Create, edit, delet tokens',
+    'Emails'=>'Emails',
+    'Sent emails'=>'Sent emails',
+    'Send emails txt'=>'Statuses of emails sent for last 10 days',
+    'Your account'=>'Your account',
+    'Your account txt 1'=>'Buy bundle for any amount of messages starting at',
+    'Your account txt 2'=>'for message',
+    'Emails constructor'=>'Emails constructor',
+    'Soon'=>'Soon',
+    'Emails constructor txt'=>'Constructor helps to create beautifull email templates',
+    'Uncaught Exception'=>'Uncaught Exception',
+    'Uncaught Exception txt'=>'Try to reload page. If nothing helps - call to website administrator.'
+);

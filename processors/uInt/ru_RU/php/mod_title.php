@@ -1,0 +1,20 @@
+<?php
+$uInt_processors_mod_title["uCore"]='Ядро';//Название модуля "Ядро" - основной модуль системы
+$uInt_processors_mod_title["uConf"]='Настройки';//Название модуля "Настройки" - настройки сайта
+$uInt_processors_mod_title["uEditor"]='Тексты';//Название модуля "Статьи" - статьи, тексты
+$uInt_processors_mod_title["uAuth"]='Пользователи';//Название модуля "Пользователи" - авторизация, профили пользователей
+$uInt_processors_mod_title["uForms"]='Формы';//Название модуля "Формы" - формы
+$uInt_processors_mod_title["uRubrics"]='Рубрики';//Название модуля "Рубрики" - рубрики содержат статьи. Например, новости
+$uInt_processors_mod_title["common"]='Общие';//Название модуля "Общие" - Общий модуль
+$uInt_processors_mod_title["content"]='Контент';//Название модуля "Контент" - Контент сайта. Слайдеры, тексты, страницы
+$uInt_processors_mod_title["mainpage"]='Главная';//Название модуля "Главная" - Главная страница сайта
+$uInt_processors_mod_title["uViblog"]='Видео лента';//Название модуля "Видео лента"
+$uInt_processors_mod_title["uPeople"]='Наши люди';//Название модуля "Наши люди"
+$uInt_processors_mod_title["uCat"]='Каталог';//Название модуля "Каталог" - интернет-магазин
+$uInt_processors_mod_title["uSup"]='Техническая поддержка';//Название модуля "Техническая поддержка"
+$uInt_processors_mod_title["uKnowbase"]='База знаний';//Название модуля "База знаний"
+$uInt_processors_mod_title["uEvents"]='События';//Название модуля "События"
+$uInt_processors_mod_title["uSubscr"]='Рассылки';//Название модуля "Рассылки"
+$uInt_processors_mod_title["advert"]='Объявления';//Название модуля "Объявления" - что-то типа avito
+$uInt_processors_mod_title["obooking"]='Записи, брони';//Название модуля "Записи, брони"
+$uInt_processors_mod_title["gallery"]='Галерея';//Название модуля "Галерея"

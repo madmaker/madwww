@@ -1,0 +1,23 @@
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+    font-family: Futura_Light-Normal;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 12px;
+}
+th {
+    text-align: left;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+td {
+    text-align: left;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}

@@ -1,0 +1,3 @@
+<?php
+$uInt_uEvents_admin_events_types_load_delete_dg_bg["Alert.Delete events type. Events will be deleted"]='<p>If you delete the event type all attached events will be lost.</p><p>You can specify another event type to prevent events deletion</p>';//Текст-предупреждение в диалоговом окошке удаления типа события на странице просмотра события
+$uInt_uEvents_admin_events_types_load_delete_dg_bg["Info. Specify events type for events"]='Specify new event type to attach all events from event type you want to delete';//Текст, призывающий выбрать из списка тип события, к которому необходимо прикрепить события удаляемого типа

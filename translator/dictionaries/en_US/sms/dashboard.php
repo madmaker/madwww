@@ -1,0 +1,29 @@
+<?php
+$file_path= 'sms/dashboard.php';
+$this->dictionary[$file_path]=array(
+    'Page Title'=>'SMS. Dashboard',
+    'You are not authorized'=>'You are not authorized',
+    'Please sign in'=>'Please sign in',
+    'Sign in'=>'Sign in',
+    'Forbidden'=>'Forbidden',
+    'You do not have sufficient permissions to access this page'=>'You do not have sufficient permissions to access this page',
+    'Dashboard'=>'Dashboard',
+    'Profile'=>'Profile',
+    'Switched on'=>'On',
+    'Switch off btn'=>'Switch off',
+    'MAD SMS Description 1'=>'MAD SMS allows you to send sms from website or application using your mobile phone',
+    'MAD SMS Description 2'=>'Your mobile phone becomes a pocket sms-gateway',
+    'API Doc'=>'API Documentation',
+    'API Doc description'=>'Full description of API',
+    'Tokens'=>'API Tokens',
+    'Tokens description'=>'For applications and servers',
+    'Tokens txt'=>'Create, edit, delet tokens',
+    'Emails'=>'Emails',
+    'Sent sms'=>'Sent sms',
+    'Sent sms txt'=>'Statuses of sms sent for last 10 days',
+    'Your account'=>'Your account',
+    'Your account txt 1'=>'Buy bundle for any amount of sms starting at',
+    'Your account txt 2'=>'for message',
+    'Uncaught Exception'=>'Uncaught Exception',
+    'Uncaught Exception txt'=>'Try to reload page. If nothing helps - call to website administrator.'
+);

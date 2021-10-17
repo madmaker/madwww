@@ -1,0 +1,23 @@
+<?php
+$uInt_uEvents_events["Today"]='Today';//Кнопка "Сегодня" - обозначение сегодняшней даты для календаря на странице просмотра типа события
+$uInt_uEvents_events["Add title"]='Add title';//Кнопка "Добавить заголовок" для правого меню (режимредактирования)
+$uInt_uEvents_events["Move or rename this element"]='Move or rename this item';//Заголовок кнопки-иконки напротив каждого пункта меню (режим редактирования)
+$uInt_uEvents_events["Change the name of the event type"]='Edit events type title';//Заголовок кнопки-иконки "Изменить название" (иконка с карандашем)
+$uInt_uEvents_events["Change the URL type of event"]='Edit events type URL';//Заголовок кнопки-иконки "Изменить URL" (иконка с надписью "URL")
+$uInt_uEvents_events["Delete event type"]='Delete events type';//Заголовок кнопки-иконки "Удалить тип события" (иконка с крестиком)
+$uInt_uEvents_events["Type title editor - dg title"]='Event type title editor';//Заголовок диалога с редактором названия типа событий
+$uInt_uEvents_events["Event type title - input label"]='Enter a new title';//Подпись к полю "Название типа события" в диалоге редактора названия типа событий
+$uInt_uEvents_events["Close - btn txt"]='Close';//Кнопка "Закрыть" в диалогах
+$uInt_uEvents_events["Save - btn txt"]='Save';//Кнопка "Сохранить" в диалогах
+$uInt_uEvents_events["URL of event type editor - dg title"]='Event type url editor';//Заголовок диалога с редактором URL типа событий
+$uInt_uEvents_events["URL - input label"]='Enter a new url';//Подпись к полю "URL" в диалоге редактора URL типа событий
+$uInt_uEvents_events["Files - dg title"]='Files';//Заголовок диалога со списком файлов типа событий
+$uInt_uEvents_events["Watch - btn txt"]='View';//Текст кнопки "Просмотр" в списке файлов
+$uInt_uEvents_events["Insert - btn txt"]='Insert';//Текст кнопки "Вставить" в списке файлов
+$uInt_uEvents_events["Delete - btn txt"]='Delete';//Текст кнопки "Удалить" в списке файлов
+$uInt_uEvents_events["Delete All - btn txt"]='Delete all';//Текст кнопки "Удалить Все" в списке файлов
+$uInt_uEvents_events["Delete event type - dg title"]='Are you sure you want to delete event type?';//Заголовок диалога подтверждения удаления типа событий
+$uInt_uEvents_events["Cancel - btn txt"]='Cancel';//Текст кнопки "Отмена" в диалогах
+$uInt_uEvents_events["Delete and move events - btn txt"]='Delete and move all events';//Текст кнопки "Удалить и перенести события" в диалоге удаления типа событий. При клике на нее тип событий будет удален, а события перенесены в другое событие
+$uInt_uEvents_events["Delete event type and events attached - btn txt"]='Delete including events';//Текст кнопки "Удалить вместе с событиями" в диалоге удаления типа событий. При клике на нее тип событий будет удален вместе со свсеми прикрепленными событиями
+$uInt_uEvents_events["Event type dates - header"]='dates';//Заголовок списка дат на странице календаря событий

@@ -1,0 +1,30 @@
+<IfModule mod_php5.c>
+php_value max_execution_time 30
+</IfModule>
+
+#php_flag register_globals Off
+#php_flag magic_quotes_gpc Off
+#php_flag display_startup_errors On
+#php_flag display_errors On
+#php_flag html_errors On
+
+#php_value error_reporting  E_ALL
+#
+RewriteEngine On
+RewriteRule !(gif|jpg|jpeg|png|svg|js|jsx|swf|xap|ico|css|pdf|zip|rar|7z|rtf|htm|wav|mp3|docx|eot|ttf|woff2|tiff|woff)$ index.php [NC,QSA,E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+
+#
+#Action core /index.php
+#<FilesMatch "^([^.]+)$">
+#ForceType core
+#</FilesMatch>
+
+#php_value upload_max_filesize 100M
+#php_value post_max_size 100M
+#php_value output_buffering on
+#php_value max_execution_time 1000
+#php_value max_input_time 1000
+#php_value session.gc_maxlifetime 14400
+#php_value LimitRequestBody 100M
+#php_value memory_limit			32M

@@ -1,0 +1,32 @@
+<?php
+$file_path="smtp/dashboard.php";
+$this->dictionary[$file_path]=array(
+    'Page Title'=>'SMTP. Панель управления',
+    'You are not authorized'=>'Вы не авторизованы',
+    'Please sign in'=>'Пожалуйста, авторизуйтесь',
+    'Sign in'=>'Авторизоваться',
+    'Forbidden'=>'Отказано в доступе',
+    'You do not have sufficient permissions to access this page'=>'У вас нет доступа к этой странице',
+    'Dashboard'=>'Панель управления.',
+    'Profile'=>'Профиль',
+    'Switched on'=>'Включен',
+    'Switch off btn'=>'Отключить',
+    'MAD SFTP Description 1'=>'MAD SMTP позволяет вам отправлять сообщения с сайта или приложения, используя SMTP-сервер и учетную запись вашей почты.',
+    'MAD SFTP Description 2'=>'Это обеспечивает более надежную доставку сообщений, чем отправка писем с сайта.',
+    'API Doc'=>'Документация API',
+    'API Doc description'=>'Подробное описание API',
+    'Tokens'=>'API Токены',
+    'Tokens description'=>'Для приложений и серверов',
+    'Tokens txt'=>'Создать, изменить, удалить токены',
+    'Emails'=>'Сообщения',
+    'Sent emails'=>'Отправленные сообщения',
+    'Send emails txt'=>'Статусы сообщений за последние 10 дней',
+    'Your account'=>'Ваш счет',
+    'Your account txt 1'=>'Купите пакет на любое количество писем от',
+    'Your account txt 2'=>'за письмо',
+    'Emails constructor'=>'Конструктор писем',
+    'Soon'=>'Скоро будет',
+    'Emails constructor txt'=>'Конструктор поможет создавать красивые шаблоны для сообщений',
+    'Uncaught Exception'=>'Непредвиденная ошибка',
+    'Uncaught Exception txt'=>'Попробуйте перезагрузить страницу. Если не поможет - обратитесь к администратору сайта'
+);

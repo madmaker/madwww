@@ -1,0 +1,3 @@
+<?php
+$uInt_uNavi_eip_load_menu_bg["Menu item without parent item wouldn't be shown - hint"]='Menu item without parent item will not be shown';//Пояснение к пунктам меню - если у пункта меню 1-го или далее уровней (не 0-го) нет родительского пункта (пункта на уровень выше), то он не будет отображаться
+$uInt_uNavi_eip_load_menu_bg["Click the item title to edit or delete - hint"]='Click the item title to edit or delete';//Пояснение к редактору меню - подсказывает, что нужно нажать на название пункта меню, чтобы открыть диалог с редактором этого пункта меню и кнопкой "удалить"

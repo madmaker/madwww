@@ -1,0 +1,107 @@
+.uPage_container .add_el_btn,
+.uPage_container .add_row_btn,
+.uPage_container .add_col_btn{
+    position: absolute;
+    padding: 8px;
+    border-radius: 25px;
+    z-index: 1050;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+    opacity: 0.7;
+    font-size: 14px;
+}
+.uPage_container .add_el_btn:hover,
+.uPage_container .add_row_btn:hover,
+.uPage_container .add_col_btn:hover{
+    z-index: 1051;
+    transform: rotate(360deg);
+    opacity: 1;
+}
+
+.uPage_container .add_row_btn {
+    left: 49%;
+    bottom: -18px;
+}
+.uPage_container .add_row_btn_top {
+    bottom: auto;
+    margin-top:-18px;
+}
+
+.uPage_container .add_col_btn {
+    top:0;
+}
+.uPage_container .add_col_btn_right {
+    right: -19px;
+}
+.uPage_container .add_col_btn_left {
+    left: -17px;
+}
+.uPage_container .add_col_btn_center {
+    left: 50%;
+    margin-left: -17px;
+}
+
+
+.uPage_container .add_el_btn{
+    left: 50%;
+    /*margin-left: -17px;*/
+}
+.uPage_container .add_el_btn_top{
+    top: -19px;
+}
+.uPage_container .add_el_btn_bottom{
+    bottom: -17px;
+}
+.uPage_container .add_el_btn_center {
+    left: 50%;
+    margin-left: -17px;
+}
+
+
+
+.row_selector,
+.col_selector,
+.el_selector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 30px;
+    height: 100%;
+    z-index: /*2000*/1049;
+}
+.uPage_row:hover .row_selector,
+.uPage_col:hover .col_selector,
+.uPage_el:hover .el_selector {
+    background: rgba(255, 255, 255, 0.5);
+    transition: background 0.2s ease-out;
+}
+
+
+.uPage_row_highlight_cursor,
+.uPage_col_highlight_cursor,
+.uPage_el_highlight_cursor {cursor: pointer;}
+
+.uPage_el_highlight_cursor,
+.uPage_col_highlight_cursor,
+.uPage_col_highlight,
+.uPage_row_highlight_cursor,
+.uPage_row_highlight {min-height: 30px; /*border:dotted 1px #acacac; */outline:1px rgba(172, 172, 172, 0.36) dotted; transition:outline 0.5s ease-out;}
+
+.uPage_col_highlight:hover,
+.uPage_col_highlight_cursor:hover,
+.uPage_el_highlight_cursor:hover,
+.uPage_row_highlight_cursor:hover {outline-style:solid;}
+
+
+.uPage_row:hover .highlight_on_hover .row_selector,
+.uPage_row.selected_first_row .row_selector,
+.uPage_row.selected_for_template  .row_selector{background: rgba(0,0,255,0.5)}
+
+#uPage_site_style_edit_dg_slider_dots_examples_content {
+    background: url('/uPage/img/el_config/slider_markers_examples_bg.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+.dots_style_example_container {
+    position: relative;
+}

@@ -1,0 +1,29 @@
+<?php
+$file_path="sms/dashboard.php";
+$this->dictionary[$file_path]=array(
+    'Page Title'=>'SMS. Панель управления',
+    'You are not authorized'=>'Вы не авторизованы',
+    'Please sign in'=>'Пожалуйста, авторизуйтесь',
+    'Sign in'=>'Авторизоваться',
+    'Forbidden'=>'Отказано в доступе',
+    'You do not have sufficient permissions to access this page'=>'У вас нет доступа к этой странице',
+    'Dashboard'=>'Панель управления.',
+    'Profile'=>'Профиль',
+    'Switched on'=>'Включен',
+    'Switch off btn'=>'Отключить',
+    'MAD SMS Description 1'=>'MAD SMS позволяет вам отправлять sms сообщения с сайта или приложения, используя ваш мобильный телефон',
+    'MAD SMS Description 2'=>'Ваш телефон будет карманным смс-шлюзом',
+    'API Doc'=>'Документация API',
+    'API Doc description'=>'Подробное описание API',
+    'Tokens'=>'API Токены',
+    'Tokens description'=>'Для приложений и серверов',
+    'Tokens txt'=>'Создать, изменить, удалить токены',
+    'Emails'=>'Сообщения',
+    'Sent sms'=>'Отправленные сообщения',
+    'Sent sms txt'=>'Статусы сообщений за последние 10 дней',
+    'Your account'=>'Ваш счет',
+    'Your account txt 1'=>'Купите пакет на любое количество смс от',
+    'Your account txt 2'=>'за сообщение',
+    'Uncaught Exception'=>'Непредвиденная ошибка',
+    'Uncaught Exception txt'=>'Попробуйте перезагрузить страницу. Если не поможет - обратитесь к администратору сайта'
+);

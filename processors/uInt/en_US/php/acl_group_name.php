@@ -1,0 +1,21 @@
+<?php
+$uInt_processors_acl_group_name["acl_group_name_0"]='Any visitor';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_1"]='Unauthorized user only';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_2"]='Any authorized user';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_3"]='Administrator';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_4"]='Help desk operator';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_5"]='Help desk consultant';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_6"]='Users manager';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_7"]='Help desk administrator';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_8"]='Events admin';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_10"]='Forms viewer';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_11"]='Forms manager';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_12"]='Catalog manager';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_13"]='root';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_14"]='Vlog manager';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_15"]='Content manager';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_16"]='Knowledge base manager';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_17"]='Our People manager';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_18"]='Help Desk Supervisor';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_19"]='FAQ Manager';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_20"]='Newsletter manager';//Название группы пользователей

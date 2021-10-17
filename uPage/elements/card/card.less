@@ -1,0 +1,34 @@
+.uPage_card {
+  background-repeat: no-repeat;
+  position: relative;
+}
+.uPage_card .card_content {
+  opacity: 0;
+  position: absolute;
+  padding: 10px;
+  left: 5%;
+  right: 5%;
+  top: 5%;
+  bottom: 5%;
+  transition: all ease-in 0.3s;
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+}
+.uPage_card .card_content_container {
+  display: table-cell;
+  vertical-align: middle;
+}
+.uPage_card:hover .card_content {
+  opacity: 0.9;
+}
+.uPage_card .card_wrapper {
+  display: table;
+  margin: 0 auto;
+}
+@media(max-width:767px) {
+  .uPage_card {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}

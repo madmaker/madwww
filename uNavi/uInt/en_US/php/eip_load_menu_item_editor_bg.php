@@ -1,0 +1,27 @@
+<?php
+$uInt_uNavi_eip_load_menu_item_editor_bg["Item title - label"]='Title';//Диалог редактора пункта меню - подпись к полю "Заголовок пункта меню"
+$uInt_uNavi_eip_load_menu_item_editor_bg["Insert icon to item text - label"]='Insert icon';//Диалог редактора пункта меню - подпись к полю "Вставить иконку в текст". Поле - selectbox различных иконок
+$uInt_uNavi_eip_load_menu_item_editor_bg["Insert icon to item text - btn"]='Add icon';//Текст кнопки "Добавить иконку в текст"
+$uInt_uNavi_eip_load_menu_item_editor_bg["Link - label"]='Link (URL)';//Диалог редактора пункта меню - подпись к полю "Ссылка"
+$uInt_uNavi_eip_load_menu_item_editor_bg["Position - label"]='Position relative other items';//Диалог редактора пункта меню - подпись к полю "Позиция"
+$uInt_uNavi_eip_load_menu_item_editor_bg["Position on top - option"]='Top';//Вариант "В начале" для поля selectbox "Позиция"
+$uInt_uNavi_eip_load_menu_item_editor_bg["Move with children - label"]='move with children items';//Диалог редактора пункта меню - подпись к полю "переместить вместе с дочерними" - при выборе родительский пункт будет перемещен в другое место вместе со всеми дочерними пунктами меню
+$uInt_uNavi_eip_load_menu_item_editor_bg["Level - label"]='Level';//Диалог редактора пункта меню - подпись к полю "Уровень". Самый верхний уровень - 0. Пункты уровня 1 являются дочерними у пункта уровня 0, который над ними. И так далее.
+$uInt_uNavi_eip_load_menu_item_editor_bg["Target - label"]='Target window';//Диалог редактора пункта меню - подпись к полю "Где открыть": в новом окне или текущем
+$uInt_uNavi_eip_load_menu_item_editor_bg["Target - blank - option"]='New tab';//Вариант selectbox для поля "Где открыть" - в новой вкладке
+$uInt_uNavi_eip_load_menu_item_editor_bg["Target - here - option"]='Current tab';//Вариант selectbox для поля "Где открыть" - в текущей вкладке
+$uInt_uNavi_eip_load_menu_item_editor_bg["Access - label"]='Access';//Диалог редактора пункта меню - подпись к полю "Доступ"
+$uInt_uNavi_eip_load_menu_item_editor_bg["Button icon - label"]='Button image';//Диалог редактора пункта меню - подпись к полю "Изображение кнопки"
+$uInt_uNavi_eip_load_menu_item_editor_bg["Delete image - btn"]='Delete image';//Кнопка "Удалить изображение кнопки"
+$uInt_uNavi_eip_load_menu_item_editor_bg["Button icon onmouseover - label"]='Button image on mouse over';//Диалог редактора пункта меню - подпись к полю "Изображение кнопки при наведении"
+$uInt_uNavi_eip_load_menu_item_editor_bg["Image upload - hint"]='After you save this button the image uploader will be available';//Подпись к блоку изображений кнопки. Они доступны только если пункт меню сохранен. То есть при создании нового пункта меню, его нужно сохранить, чтобы получить возможность работать с изображениями этого пункта меню
+$uInt_uNavi_eip_load_menu_item_editor_bg["Everyone - access title"]='Everyone';//Название права доступа к пункту меню. Для любых пользователей
+$uInt_uNavi_eip_load_menu_item_editor_bg["Authorized only - access title"]='Authorized users only';//Название права доступа к пункту меню. Только для авторизованных пользователей
+$uInt_uNavi_eip_load_menu_item_editor_bg["Unauthorized only - access title"]='Unauthorized users only';//Название права доступа к пункту меню. Только для неавторизованных пользователей
+$uInt_uNavi_eip_load_menu_item_editor_bg["Show label"]='Show label';//Редактор пункта меню. Подпись а настройке "Показывать текст". Если активна, то текст пункта меню отображается на странице, если нет - то скрывается. Нужно для пунктов меню, где есть картинка, а текст показывать не надо
+$uInt_uNavi_eip_load_menu_item_editor_bg["is system btn"]='Is it a system button?';//Подпись к настройке пункта меню. Кнопка может быть обычной либо системной, например кнопка "Личный кабинет" для каталога или кнопка "Вход" для авторизации
+$uInt_uNavi_eip_load_menu_item_editor_bg["Not a system btn"]='No';//Вариант значения для "is system btn". Это не системная - обычная кнопка.
+$uInt_uNavi_eip_load_menu_item_editor_bg["uCat account btn"]='Unauthorized users only';//Вариант значения для "is system btn". Это системная кнопка. Кнопка "Личный кабинет/Вход" для каталога. Когда пользователь авторизован, то отображается кнопка "Личный кабинет" и кнопка "Выход", когда пользователь не авторизован - отображается кнопка "Вход"
+$uInt_uNavi_eip_load_menu_item_editor_bg["advert account btn"]='Adverts. Personal account/Log in';//Вариант значения для "is system btn". Это системная кнопка. Кнопка "Личный кабинет/Вход" для каталога. Когда пользователь авторизован, то отображается кнопка "Личный кабинет" и кнопка "Выход", когда пользователь не авторизован - отображается кнопка "Вход"
+$uInt_uNavi_eip_load_menu_item_editor_bg["common tab name"]='General';//Название вкладки "Основное" в редакторе пункта меню. Отображает основные настройки
+$uInt_uNavi_eip_load_menu_item_editor_bg["advanced tab name"]='Advanced';//Название вкладки "Расширенные" в редакторе пункта меню. Отображает дополнительные настройки

@@ -1,0 +1,21 @@
+<?php
+$uInt_processors_acl_group_name["acl_group_name_0"]='Любой посетитель сайта';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_1"]='Неавторизованный пользователь';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_2"]='Любой авторизованный пользователь';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_3"]='Администратор';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_4"]='Оператор техподдержки';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_5"]='Консультант техподдержки';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_6"]='Менеджер пользователей';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_7"]='Администратор технической поддержки';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_8"]='Администратор событий';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_10"]='Просмотрщик форм';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_11"]='Менеджер форм';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_12"]='Менеджер каталога';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_13"]='Супер Администратор';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_14"]='Менеджер видеоленты';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_15"]='Менеджер контента';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_16"]='Менеджер базы знаний';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_17"]='Менеджер uPeople';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_18"]='Супервизор техподдержки';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_19"]='Менеджер FAQ';//Название группы пользователей
+$uInt_processors_acl_group_name["acl_group_name_20"]='Менеджер рассылок';//Название группы пользователей

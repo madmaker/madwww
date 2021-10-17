@@ -1,0 +1,11 @@
+{
+  "require": {
+    "ezyang/htmlpurifier":"4.7.0",
+    "pelago/emogrifier": "v3.1.0",
+    "flourish/flourish": "0.9.x-dev"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  }
+}

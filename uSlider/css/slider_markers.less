@@ -1,0 +1,919 @@
+.dots_style_example_container {
+  position: relative;
+  border-top: solid @mad_primary_color 1px;
+  height: 90px;
+  padding-top: 10px;
+}
+.dots_style_example_container b{
+  width: 100%;
+  display: table;
+}
+
+.dots_style_1 .owl-dots,
+.dots_style_1 .carousel-indicators{
+  bottom: 5px;
+  display: table;
+  margin: 20px auto;
+}
+
+.dots_style_1 .carousel-indicators {
+  width: auto;
+}
+.dots_style_1 .owl-dot,
+.dots_style_1 .carousel-indicators li {
+  width:18px;
+  height:18px;
+  position: relative;
+  border:solid @mad_primary_over_font_color 2px;
+  border-radius: 13px;
+  margin:0 5px 0 0;
+  background:transparent;
+  float:left;
+  transition: all ease-in 0.3s;
+}
+.dots_style_1  .owl-dot.active,
+.dots_style_1  .carousel-indicators li.active {
+  background:transparent;
+}
+.dots_style_1  .owl-dot::after,
+.dots_style_1  .carousel-indicators li::after {
+  transition: all ease-in 0.3s;
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 13px;
+  background: @mad_primary_color;
+  opacity: 0;
+}
+.dots_style_1  .owl-dot.active::after,
+.dots_style_1  .carousel-indicators li.active::after{
+  opacity: 1;
+}
+.dots_style_1  .owl-dot:hover::after,
+.dots_style_1  .carousel-indicators li:hover::after {
+  opacity: 0.7;
+}
+
+/*==========================*/
+
+.dots_style_2 .owl-dots,
+.dots_style_2 .carousel-indicators {
+  position: absolute;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  bottom: 20px;
+}
+
+.dots_style_2 .owl-dot,
+.dots_style_2 .carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background:none;
+  border: 1px solid @mad_primary_over_font_color;
+  border-radius: 10px;
+  transition: all ease-in 0.3s;
+}
+
+.dots_style_2 .owl-dot.active,
+.dots_style_2 .carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: @mad_primary_over_font_color;
+}
+
+/*==========================*/
+.dots_style_3 .carousel-indicators {
+  width: auto;
+}
+
+.dots_style_3 .owl-dots,
+.dots_style_3 .carousel-indicators {
+  float: right;
+  z-index: 2;
+  position: absolute;
+  right: 18px;
+  margin: 0 auto;
+  display: table;
+}
+
+.dots_style_3 .owl-dots .owl-dot,
+.dots_style_3 .carousel-indicators li {
+  background: @mad_site_font_color;
+  width: 39px;
+  height: 4px;
+  margin: 5px 4px;
+  opacity: 0.5;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  user-select: none;
+  float: left;
+  border-radius: 0;
+  border:none;
+  transition: all ease-in 0.3s;
+}
+
+.dots_style_3 .owl-dots .owl-dot.active,
+.dots_style_3 .carousel-indicators li.active{
+  background: @mad_primary_color;
+  opacity: 1;
+}
+
+/*==========================*/
+
+.dots_style_4 .owl-dots,
+.dots_style_4 .carousel-indicators {
+  float: none;
+  z-index: 2;
+  margin: 0 auto;
+  display: table;
+}
+.dots_style_4 .carousel-indicators-container {
+  position: absolute;
+  width: 100%;
+  bottom:1em;
+  z-index: 10;
+}
+.dots_style_4 .carousel-indicators {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+.dots_style_4 .owl-dots .owl-dot,
+.dots_style_4 .carousel-indicators li {
+  background: @mad_site_font_color;
+  width: 39px;
+  height: 4px;
+  margin: 5px 4px;
+  opacity: 0.5;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  user-select: none;
+  float: left;
+  border-radius: 0;
+  border:none;
+  transition: all ease-in 0.3s;
+}
+
+.dots_style_4 .owl-dots .owl-dot.active,
+.dots_style_4 .carousel-indicators li.active{
+  background: @mad_primary_color;
+  opacity: 1;
+}
+
+/*==========================*/
+
+.dots_style_5 .owl-dots,
+.dots_style_5 .carousel-indicators {
+  float: none;
+  z-index: 2;
+  margin: 0 auto;
+  display: table;
+}
+.dots_style_5 .carousel-indicators-container {
+  position: absolute;
+  width: 100%;
+  bottom:1em;
+  z-index: 10;
+}
+.dots_style_5 .carousel-indicators {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+.dots_style_5 .owl-dots .owl-dot,
+.dots_style_5 .carousel-indicators li {
+  background: @mad_primary_over_font_color;
+  width: 39px;
+  height: 4px;
+  margin: 5px 4px;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  user-select: none;
+  float: left;
+  border-radius: 0;
+  border:none;
+  transition: all ease-in 0.3s;
+}
+
+.dots_style_5 .owl-dots .owl-dot.active,
+.dots_style_5 .carousel-indicators li.active{
+  background: @mad_primary_color;
+}
+
+
+/*==========================*/
+.dots_style_6 .carousel-indicators {
+  width: auto;
+}
+
+.dots_style_6 .owl-dots,
+.dots_style_6 .carousel-indicators {
+  float: right;
+  z-index: 2;
+  position: absolute;
+  right: 18px;
+  margin: 0 auto;
+  display: table;
+}
+
+.dots_style_6 .owl-dots .owl-dot,
+.dots_style_6 .carousel-indicators li {
+  background: @mad_primary_over_font_color;
+  width: 39px;
+  height: 4px;
+  margin: 5px 4px;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  float: left;
+  border-radius: 0;
+  border:none;
+  transition: all ease-in 0.3s;
+}
+
+.dots_style_6 .owl-dots .owl-dot.active,
+.dots_style_6 .carousel-indicators li.active{
+  background: @mad_primary_color;
+}
+
+/*==========================*/
+
+.dots_style_7 .owl-dots,
+.dots_style_7 .carousel-indicators {
+  margin: 0 auto;
+  display: table;
+}
+
+.dots_style_7 .carousel-indicators-container {
+  position: absolute;
+  width: 100%;
+  bottom:1em;
+  z-index: 10;
+}
+.dots_style_7 .carousel-indicators {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+.dots_style_7 .owl-dot,
+.dots_style_7 .carousel-indicators li {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  background: none;
+  border-radius: 20px;
+  border: solid @mad_primary_color 1px;
+  margin: 0 6px;
+  float: left;
+  transition: all ease-in 0.3s;
+}
+
+.dots_style_7 .owl-dot.active,
+.dots_style_7 .carousel-indicators li.active {
+  background: @mad_primary_color;
+  width: 20px;
+  height: 20px;
+  margin-top: -3px;
+}
+
+/*==========================*/
+
+.dots_style_8 .owl-dots,
+.dots_style_8 .carousel-indicators {
+  float: right;
+  position: initial;
+  margin: 0 2em 0 0;
+  width: auto;
+}
+
+.dots_style_8 .carousel-indicators-container {
+  width: 100%;
+  position: absolute;
+  bottom: 1em;
+  z-index: 10;
+}
+
+.dots_style_8 .owl-dot,
+.dots_style_8 .carousel-indicators li {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  background: none;
+  border-radius: 20px;
+  border: solid @mad_primary_color 1px;
+  margin: 0 6px;
+  float: left;
+  transition: all ease-in 0.3s;
+}
+
+.dots_style_8 .owl-dot.active,
+.dots_style_8 .carousel-indicators li.active {
+  background: @mad_primary_color;
+  width: 20px;
+  height: 20px;
+  margin-top: -3px;
+}
+
+
+/*==========================*/
+
+.dots_style_9 .owl-dots,
+.dots_style_9 .carousel-indicators {
+  margin: 0 auto;
+  display: table;
+}
+
+.dots_style_9 .carousel-indicators-container {
+  position: absolute;
+  width: 100%;
+  bottom:1em;
+  z-index: 10;
+}
+.dots_style_9 .carousel-indicators {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+.dots_style_9 .owl-dot,
+.dots_style_9 .carousel-indicators li {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  background: @mad_site_font_color;
+  opacity: 0.5;
+  border-radius: 20px;
+  border: none;
+  margin: 0 6px;
+  float: left;
+  transition: all ease-in 0.3s;
+}
+
+.dots_style_9 .owl-dot.active,
+.dots_style_9 .carousel-indicators li.active {
+  opacity: 1;
+  border: none;
+  background: @mad_primary_color;
+  width: 12px;
+  height: 12px;
+  margin-top: -1px;
+}
+
+/*==========================*/
+.dots_style_10 .carousel-indicators {
+  width: auto;
+}
+.dots_style_10 .carousel-indicators,
+.dots_style_10 .owl-dots{
+  bottom: 5px;
+  display: table;
+  margin: 20px auto;
+}
+.dots_style_10 .owl-dot,
+.dots_style_10 .carousel-indicators li,
+.dots_style_10 .carousel-indicators .active{
+  width:13px;
+  height:13px;
+  margin:0 5px;
+  position: relative;
+  border:solid @mad_primary_over_font_color 2px;
+  float:left;
+  transition: all ease-in 0.3s;
+}
+.dots_style_10 .owl-dot,
+.dots_style_10 .carousel-indicators li {
+  border-radius: 13px;
+  border-color: @mad_primary_over_font_color;
+  margin-right: 5px;
+}
+.dots_style_10 .owl-dot,
+.dots_style_10 .carousel-indicators li {
+  background:transparent;
+}
+.dots_style_10 .owl-dot.active,
+.dots_style_10 .carousel-indicators .active {
+  background:transparent;
+}
+.dots_style_10 .owl-dot.active::after,
+.dots_style_10 .carousel-indicators li.active::after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 7px;
+  height: 7px;
+  border-radius: 13px;
+  background: @mad_primary_color;
+}
+
+/*==========================*/
+
+.dots_style_11 .carousel-indicators,
+.dots_style_11 .owl-dots{
+  bottom: 5px;
+  display: table;
+  margin: 20px auto;
+}
+.dots_style_11 .carousel-indicators-container {
+  position: absolute;
+  width: 100%;
+  bottom:1em;
+  z-index: 10;
+}
+.dots_style_11 .carousel-indicators {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+.dots_style_11 .owl-dot,
+.dots_style_11 .carousel-indicators li,
+.dots_style_11 .carousel-indicators .active{
+  width:13px;
+  height:13px;
+  margin:0 5px;
+  position: relative;
+  border:solid @mad_site_font_color 2px;
+  float:left;
+  transition: all ease-in 0.3s;
+}
+.dots_style_11 .owl-dot,
+.dots_style_11 .carousel-indicators li {
+  border-radius: 13px;
+  border-color: @mad_site_font_color;
+  margin-right: 5px;
+}
+.dots_style_11 .owl-dot,
+.dots_style_11 .carousel-indicators li {
+  background:transparent;
+}
+.dots_style_11 .owl-dot.active,
+.dots_style_11 .carousel-indicators .active {
+  background:transparent;
+}
+.dots_style_11 .owl-dot.active::after,
+.dots_style_11 .carousel-indicators li.active::after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 7px;
+  height: 7px;
+  border-radius: 13px;
+  background: @mad_primary_color;
+}
+
+/*==========================*/
+.dots_style_12 .carousel-indicators {
+  width: auto;
+}
+
+.dots_style_12 .owl-dots,
+.dots_style_12 .carousel-indicators {
+  margin: 40px auto 0 auto;
+  display: table;
+}
+
+
+.dots_style_12 .owl-dot,
+.dots_style_12 .carousel-indicators li {
+  cursor: pointer;
+  width: 17px;
+  height: 17px;
+  background: @mad_site_font_color;
+  opacity: 0.4;
+  border-radius: 17px;
+  margin: 0 6px;
+  float: left;
+  transition: all ease-in 0.3s;
+  border:none;
+}
+
+.dots_style_12 .owl-dot.active,
+.dots_style_12 .carousel-indicators li.active {
+  background: @mad_primary_color;
+  opacity: 1;
+}
+
+/*==========================*/
+
+.dots_style_13 .carousel-indicators,
+.dots_style_13 .owl-dots {
+  float: right;
+  right: 15%;
+  width: auto;
+  margin-left: 0;
+  left:unset;
+  bottom:20%;
+}
+.dots_style_13 .owl-dot,
+.dots_style_13 .carousel-indicators li,
+.dots_style_13 .carousel-indicators .active{
+  border-radius: 10px;
+  margin:5px;
+  display:block;
+  width:13px;
+  height:13px;
+  border:none;
+}
+.dots_style_13 .owl-dot,
+.dots_style_13 .carousel-indicators li {
+  opacity: 0.7;
+  background:@mad_primary_over_font_color;
+  transition:all ease-in 0.3s;
+}
+.dots_style_13 .owl-dot.active,
+.dots_style_13 .carousel-indicators .active {
+  opacity: 1;
+  background: @mad_primary_color;
+  box-shadow: @mad_primary_color 0 0 3px 1px;
+}
+
+/*==========================*/
+
+
+.dots_style_14 .owl-dots,
+.dots_style_14 .carousel-indicators {
+  float: none;
+  z-index: 2;
+  margin: 0 auto;
+  display: table;
+}
+.dots_style_14 .carousel-indicators-container {
+  position: absolute;
+  width: 100%;
+  bottom:1em;
+  z-index: 10;
+}
+.dots_style_14 .carousel-indicators {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+.dots_style_14 .owl-dot,
+.dots_style_14 .carousel-indicators li,
+.dots_style_14 .carousel-indicators .active{
+  border-radius: 10px;
+  margin:5px;
+  float: left;
+  display:block;
+  width:13px;
+  height:13px;
+  border:none;
+}
+.dots_style_14 .owl-dot,
+.dots_style_14 .carousel-indicators li {
+  opacity: 0.7;
+  background:@mad_primary_over_font_color;
+  transition:all ease-in 0.3s;
+  border:1px solid transparent;
+}
+.dots_style_14 .owl-dot.active,
+.dots_style_14 .carousel-indicators .active {
+  opacity: 1;
+  border:1px solid @mad_primary_color;
+  background: @mad_primary_color;
+  box-shadow: @mad_primary_color 0 0 5px 2px;
+}
+
+
+
+/*==========================*/
+.dots_style_15 .carousel-indicators {
+  width: auto;
+}
+
+.dots_style_15 .owl-dots,
+.dots_style_15 .carousel-indicators {
+  margin: 40px auto 0 auto;
+  display: table;
+}
+
+
+.dots_style_15 .owl-dot,
+.dots_style_15 .carousel-indicators li {
+  cursor: pointer;
+  width: 17px;
+  height: 17px;
+  background: @mad_primary_over_font_color;
+  opacity: 0.9;
+  border-radius: 17px;
+  margin: 0 6px;
+  float: left;
+  transition: all ease-in 0.3s;
+  border:none;
+}
+
+.dots_style_15 .owl-dot.active,
+.dots_style_15 .carousel-indicators li.active {
+  background: @mad_primary_color;
+  opacity: 1;
+  width: 17px;
+  height: 17px;
+  margin: 0 6px;
+}
+
+
+
+/*==========================*/
+
+.dots_style_16 .carousel-indicators,
+.dots_style_16 .owl-dots{
+  bottom: 5px;
+  display: table;
+  margin: 20px auto;
+}
+
+.dots_style_16 .carousel-indicators-container {
+  position: absolute;
+  width: 100%;
+  bottom:1em;
+  z-index: 10;
+}
+.dots_style_16 .carousel-indicators {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+.dots_style_16 .owl-dot,
+.dots_style_16 .carousel-indicators li,
+.dots_style_16 .carousel-indicators .active{
+  width:17px;
+  height:17px;
+  margin:0 5px;
+  position: relative;
+  border:solid @mad_primary_color 2px;
+  float:left;
+  transition: all ease-in 0.3s;
+}
+.dots_style_16 .owl-dot,
+.dots_style_16 .carousel-indicators li {
+  border-radius: 13px;
+  border-color: @mad_primary_color;
+  margin-right: 5px;
+}
+.dots_style_16 .owl-dot,
+.dots_style_16 .carousel-indicators li {
+  background:transparent;
+}
+.dots_style_16 .owl-dot.active,
+.dots_style_16 .carousel-indicators .active {
+  background:transparent;
+}
+.dots_style_16 .owl-dot.active::after,
+.dots_style_16 .carousel-indicators li.active::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 9px;
+  height: 9px;
+  border-radius: 13px;
+  background: @mad_primary_color;
+}
+
+/*==========================*/
+
+.dots_style_17 .owl-dots,
+.dots_style_17 .carousel-indicators {
+  float: right;
+  position: initial;
+  margin: 0 2em 0 0;
+  width: auto;
+}
+
+.dots_style_17 .carousel-indicators-container {
+  position: absolute;
+  width: 100%;
+  bottom:1em;
+  z-index: 10;
+}
+.dots_style_17 .carousel-indicators {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+.dots_style_17 .owl-dot,
+.dots_style_17 .carousel-indicators li,
+.dots_style_17 .carousel-indicators .active{
+  width:17px;
+  height:17px;
+  margin:0 5px;
+  position: relative;
+  border:solid @mad_primary_color 2px;
+  float:left;
+  transition: all ease-in 0.3s;
+}
+.dots_style_17 .owl-dot,
+.dots_style_17 .carousel-indicators li {
+  border-radius: 13px;
+  border-color: @mad_primary_color;
+  margin-right: 5px;
+}
+.dots_style_17 .owl-dot,
+.dots_style_17 .carousel-indicators li {
+  background:transparent;
+}
+.dots_style_17 .owl-dot.active,
+.dots_style_17 .carousel-indicators .active {
+  background:transparent;
+}
+.dots_style_17 .owl-dot.active::after,
+.dots_style_17 .carousel-indicators li.active::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 9px;
+  height: 9px;
+  border-radius: 13px;
+  background: @mad_primary_color;
+}
+
+.dots_style_example_container .owl-dots {
+  margin-top:0;
+}
+
+
+/*==========================*/
+
+.dots_style_18 .carousel-indicators,
+.dots_style_18 .owl-dots{
+  bottom: 5px;
+  display: table;
+  margin: 20px auto;
+}
+
+.dots_style_18 .carousel-indicators-container {
+  position: absolute;
+  width: 100%;
+  bottom:1em;
+  z-index: 10;
+}
+.dots_style_18 .carousel-indicators {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+.dots_style_18 .owl-dot,
+.dots_style_18 .carousel-indicators li,
+.dots_style_18 .carousel-indicators .active{
+  width:17px;
+  height:17px;
+  margin:0 5px;
+  position: relative;
+  border:solid @mad_primary_color 2px;
+  float:left;
+  transition: all ease-in 0.3s;
+}
+.dots_style_18 .owl-dot,
+.dots_style_18 .carousel-indicators li {
+  border-radius: 13px;
+  border-color: @mad_primary_color;
+  margin-right: 5px;
+}
+.dots_style_18 .owl-dot,
+.dots_style_18 .carousel-indicators li {
+  background:@mad_primary_color;
+}
+.dots_style_18 .owl-dot.active,
+.dots_style_18 .carousel-indicators .active {
+  background:transparent;
+}
+.dots_style_18 .owl-dot.active::after,
+.dots_style_18 .carousel-indicators li.active::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 9px;
+  height: 9px;
+  border-radius: 13px;
+  background: @mad_primary_color;
+}
+
+/*==========================*/
+
+.dots_style_19 .owl-dots,
+.dots_style_19 .carousel-indicators {
+  float: right;
+  position: initial;
+  margin: 0 2em 0 0;
+  width: auto;
+}
+
+.dots_style_19 .carousel-indicators-container {
+  position: absolute;
+  width: 100%;
+  bottom:1em;
+  z-index: 10;
+}
+.dots_style_19 .carousel-indicators {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+.dots_style_19 .owl-dot,
+.dots_style_19 .carousel-indicators li,
+.dots_style_19 .carousel-indicators .active{
+  width:17px;
+  height:17px;
+  margin:0 5px;
+  position: relative;
+  border:solid @mad_primary_color 2px;
+  float:left;
+  transition: all ease-in 0.3s;
+}
+.dots_style_19 .owl-dot,
+.dots_style_19 .carousel-indicators li {
+  border-radius: 13px;
+  border-color: @mad_primary_color;
+  margin-right: 5px;
+}
+.dots_style_19 .owl-dot,
+.dots_style_19 .carousel-indicators li {
+  background:@mad_primary_color;
+}
+.dots_style_19 .owl-dot.active,
+.dots_style_19 .carousel-indicators .active {
+  background:transparent;
+}
+.dots_style_19 .owl-dot.active::after,
+.dots_style_19 .carousel-indicators li.active::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 9px;
+  height: 9px;
+  border-radius: 13px;
+  background: @mad_primary_color;
+}
+
+.dots_style_example_container .owl-dots {
+  margin-top:0;
+}
+
+
+.owl-carousel .owl-stage-outer {
+  margin-bottom: 2em;
+}
+
+@media(max-width: 767px) {
+  .owl-carousel .owl-stage-outer {
+    margin-bottom: 0.7em;
+  }
+}

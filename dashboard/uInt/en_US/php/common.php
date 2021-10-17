@@ -1,0 +1,23 @@
+<?php
+$uInt_dashboard_common["uAuth/avatars"]='Users: avatars';//Название папки на диске
+$uInt_dashboard_common["uCat/art_avatars"]='Catalog: Articles preview images';//Название папки на диске
+$uInt_dashboard_common["uCat/cat_avatars"]='Catalog: Category\'s preview images';//Название папки на диске
+$uInt_dashboard_common["uCat/item_avatars"]='Catalog: Item\'s preview images';//Название папки на диске
+$uInt_dashboard_common["uCat/item_pictures"]='Catalog: Item\'s extra images';//Название папки на диске
+$uInt_dashboard_common["uCat/sect_avatars"]='Catalog: Section\'s preview images';//Название папки на диске
+$uInt_dashboard_common["uDrive/files"]='Disk: Files';//Название папки на диске
+$uInt_dashboard_common["uEditor/files"]='Texts: files';//Название папки на диске
+$uInt_dashboard_common["uEditor/page_avatars"]='Texts: Preview images';//Название папки на диске
+$uInt_dashboard_common["uEvents/events_files"]='Events: Files';//Название папки на диске
+$uInt_dashboard_common["uEvents/events_types_files"]='Events: Event type\'s files';//Название папки на диске
+$uInt_dashboard_common["uForms/field_files"]='Forms: Field\'s files';//Название папки на диске
+$uInt_dashboard_common["uForms/form_files"]='Forms: Form info files';//Название папки на диске
+$uInt_dashboard_common["uKnowbase/files"]='Knowledge base: Files';//Название папки на диске
+$uInt_dashboard_common["uNavi/item_icons"]='Menu: Item\'s icons';//Название папки на диске
+$uInt_dashboard_common["uPage/preview_images"]='Pages: Preview images';//Название папки на диске
+$uInt_dashboard_common["uPeople/avatars"]='People: Avatars';//Название папки на диске
+$uInt_dashboard_common["uSlider/files"]='Sliders: Files';//Название папки на диске
+$uInt_dashboard_common["uSlider/slides_bg"]='Sliders: Slide\'s backgrounds';//Название папки на диске
+$uInt_dashboard_common["uSubscr/files"]='News mailings: Files';//Название папки на диске
+$uInt_dashboard_common["uSupport/com_avatars"]='Help desk: Company\'s images';//Название папки на диске
+$uInt_dashboard_common["uSupport/msgs_files"]='Help desk: message\'s files';//Название папки на диске
