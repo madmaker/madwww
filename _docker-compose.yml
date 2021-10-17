@@ -1,0 +1,61 @@
+version: '3'
+
+services:
+  apache:
+    image: httpd:2.4
+    volumes:
+      - ./src:/var/www/madmakers/data/www/madplugin.ru
+      - ./docker/httpd/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./docker/httpd/error.log:/usr/local/apache2/logs/error.log
+    depends_on:
+      - php
+    ports:
+    - 9000:9000
+
+  nginx:
+    image: nginx:1.13
+    ports:
+      - 80:80
+    volumes:
+      - ./src:/var/www/madmakers/data/www/madplugin.ru
+      - ./docker/nginx/error.log:/var/log/nginx/error.log
+      - ./docker/nginx/access.log:/var/log/nginx/access.log
+      - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./docker/nginx/locations.conf:/etc/nginx/conf.d/locations.conf
+    depends_on:
+      - apache
+
+  php:
+    build:
+      ./docker/php
+    image: php:5.6-fpm
+    volumes:
+      - ./src:/var/www/madmakers/data/www/madplugin.ru
+      - ./docker/php/php.ini:/usr/local/etc/php/php.ini
+    depends_on:
+      - mariadb
+    environment:
+      XDEBUG_CONFIG: "remote_host=host.docker.internal remote_enable=1"
+      PHP_IDE_CONFIG: "serverName=Docker"
+
+
+  mariadb:
+    image: mariadb:10.3
+    volumes:
+      - ./docker/mariadb/mysql:/var/lib/mysql
+      - ./docker/mariadb/production_dump:/var/lib/production_dump
+    environment:
+      MYSQL_ROOT_PASSWORD: qwerty
+    ports:
+      - 32768:3306
+
+#  phpmyadmin:
+#    image: phpmyadmin/phpmyadmin
+#    links:
+#      - mariadb:db
+#    ports:
+#      - 8765:80
+#    environment:
+#      MYSQL_ROOT_PASSWORD: qwerty
+#    depends_on:
+#      - mariadb

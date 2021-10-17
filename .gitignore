@@ -1,121 +1,124 @@
-# Created by .ignore support plugin (hsz.mobi)
-processors/inc/!server_settings.php
-journals
+/docker/nginx/access.log
+/docker/nginx/error.log
+/docker/httpd/error.log
+/.idea
+/src/journals
 
 #/processors/classes/testmail.php
 
-uAuth/avatars
-!uAuth/avatars/default.jpg
-uAuth/com_avatars
+/src/uAuth/avatars
+!/src/uAuth/avatars/default.jpg
+/src/uAuth/com_avatars
 
-uCat/art_avatars
-!uCat/art_avatars/.htaccess
-uCat/art_files
-uCat/cat_avatars
-!uCat/cat_avatars/.htaccess
-uCat/cat_files
-uCat/field_files
-uCat/item_avatars
-!uCat/item_avatars/.htaccess
-uCat/item_pictures
-!uCat/item_pictures/.htaccess
-uCat/items_files
-!uCat/items_files/.htaccess
-uCat/sect_avatars
-!uCat/sect_avatars/.htaccess
-uCat/sect_files
-uCat/files/
-uCat/tmp/
-uCat/import_upload/
+/src/uCat/art_avatars
+!/src/uCat/art_avatars/.htaccess
+/src/uCat/art_files
+/src/uCat/cat_avatars
+!/src/uCat/cat_avatars/.htaccess
+/src/uCat/cat_files
+/src/uCat/field_files
+/src/uCat/item_avatars
+!/src/uCat/item_avatars/.htaccess
+/src/uCat/item_pictures
+!/src/uCat/item_pictures/.htaccess
+/src/uCat/items_files
+!/src/uCat/items_files/.htaccess
+/src/uCat/sect_avatars
+!/src/uCat/sect_avatars/.htaccess
+/src/uCat/sect_files
+/src/uCat/files/
+/src/uCat/tmp/
+/src/uCat/import_upload/
 
-uDrive/files/*
-!uDrive/files/.htaccess
-uDrive/files/
+/src/uDrive/files/*
+!/src/uDrive/files/.htaccess
+/src/uDrive/files/
 
-uEditor/cache
-uEditor/files
-!uEditor/files/.htaccess
-uEditor/page_avatars
+/src/uEditor/cache
+/src/uEditor/files
+!/src/uEditor/files/.htaccess
+/src/uEditor/page_avatars
 
-uEvents/cache
-uEvents/events_files
-uEvents/events_types_files
+/src/uEvents/cache
+/src/uEvents/events_files
+/src/uEvents/events_types_files
 
-uFAQ/files
-!uFAQ/files/.htaccess
+/src/uFAQ/files
+!/src/uFAQ/files/.htaccess
 
-uForms/cache
-uForms/field_files
-!uForms/field_files/.htaccess
-uForms/form_files
-!uForms/form_files/.htaccess
+/src/uForms/cache
+/src/uForms/field_files
+!/src/uForms/field_files/.htaccess
+/src/uForms/form_files
+!/src/uForms/form_files/.htaccess
 
-uKnowbase/files
-!uKnowbase/files/.htaccess
+/src/uKnowbase/files
+!/src/uKnowbase/files/.htaccess
 
-Navi/item_icons
-Navi/cache/
+/Navi/item_icons
+/Navi/cache/
 
-uPage/cache
-uPage/templates/
-uPage/preview_images/
-uPage/css/site_css/
-uPage/elements/tabs/site_images/
+/src/uPage/cache
+/src/uPage/templates/
+/src/uPage/preview_images/
+/src/uPage/css/site_css/
+/src/uPage/elements/tabs/site_images/
 
-uPeople/avatars
-!uPeople/avatars/default.jpg
-!uPeople/avatars/default_big.jpg
-!uPeople/avatars/default_mid.jpg
-!uPeople/avatars/default_sm.jpg
+/src/uPeople/avatars
+!/src/uPeople/avatars/default.jpg
+!/src/uPeople/avatars/default_big.jpg
+!/src/uPeople/avatars/default_mid.jpg
+!/src/uPeople/avatars/default_sm.jpg
 
-uSlider/cache/
-uSlider/files
-!uSlider/files/.htaccess
-uSlider/slides_bg
-!uSlider/slides_bg/.htaccess
-uSlideruPage/
+/src/uSlider/cache/
+/src/uSlider/files
+!/src/uSlider/files/.htaccess
+/src/uSlider/slides_bg
+!/src/uSlider/slides_bg/.htaccess
+/src/uSlideruPage/
 
-uSubscr/files
-!uSubscr/files/.htaccess
+/src/uSubscr/files
+!/src/uSubscr/files/.htaccess
 
-uSupport/avatars
-uSupport/com_avatars
-!uSupport/com_avatars/.htaccess
-!uSupport/com_avatars/default.jpg
-!uSupport/com_avatars/default_big.jpg
-!uSupport/com_avatars/default_mid.jpg
-!uSupport/com_avatars/default_sm.jpg
-uSupport/files
-uSupport/msgs_files
-!uSupport/msgs_files/.htaccess
+/src/uSupport/avatars
+/src/uSupport/com_avatars
+!/src/uSupport/com_avatars/.htaccess
+!/src/uSupport/com_avatars/default.jpg
+!/src/uSupport/com_avatars/default_big.jpg
+!/src/uSupport/com_avatars/default_mid.jpg
+!/src/uSupport/com_avatars/default_sm.jpg
+/src/uSupport/files
+/src/uSupport/msgs_files
+/src/!uSupport/msgs_files/.htaccess
 
-bills/
+/src/bills/
 
-gallery/cache/
-gallerygallery_pictures/
-gallery/img/site_images/
+/src/gallery/cache/
+/src/gallerygallery_pictures/
+/src/gallery/img/site_images/
 
-screenshoter/images/
+/src/screenshoter/images/
 
-/images/uPage/templates/
+/src//images/uPage/templates/
 
-configurator/configurations_pdf/
+/src/configurator/configurations_pdf/
 
-obooking/calendar_demo_images/
+/src/obooking/calendar_demo_images/
 
-Sitemap/
+/src/Sitemap/
 
-!uNavi/item_icons/index.html
-uNavi/item_icons/
-node_modules/
-processors/inc/server_settings.php
-/gallery/gallery_pictures/
-/gallery/img/site_images/
-/app/vendor/
-/index.php
-/uSlider/uPage/elements/tabs/site_images/5/62/tmp1/
-/vendor/
-/dataairbag/uploads/
-/obooking/calendar_demo_images/
-/uNavi/cache/
-/uPage/elements/tabs/site_images/
+!/src/uNavi/item_icons/index.html
+/src/uNavi/item_icons/
+/src/node_modules/
+/src/processors/inc/server_settings.php
+/src/gallery/gallery_pictures/
+/src/gallery/img/site_images/
+/src/app/vendor/
+/src/index.php
+/src/uSlider/uPage/elements/tabs/site_images/5/62/tmp1/
+/src/vendor/
+/src/dataairbag/uploads/
+/src/obooking/calendar_demo_images/
+/src/uNavi/cache/
+/src/uPage/elements/tabs/site_images/
+/docker-compose.yml
