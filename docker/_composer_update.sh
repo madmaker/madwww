@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 docker run --rm --interactive --tty \
-  --volume /Users/madmaker/Projects/madwww/src/:/app \
+  --volume /www/madwww/src/:/app \
   composer update

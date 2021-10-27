@@ -9,10 +9,11 @@ RUN docker-php-ext-install -j$(nproc) \
 
 ## IMAGIC
 RUN apt-get update && apt-get install -y
+
 #RUN    libmagickwand-dev --no-install-recommends \
 #    && pecl install imagick
 
-RUN docker-php-ext-enable imagick
+#RUN docker-php-ext-enable imagick
 
 ## XDEBUG
 #RUN pecl install xdebug-2.2.7
@@ -20,21 +21,21 @@ RUN docker-php-ext-enable imagick
 #RUN docker-php-ext-enable mbstring
 #RUN docker-php-ext-enable pdo pdo_mysql mysqli
 #RUN apt-get install php5.6-mbstring \
-#RUN apt-get update && apt-get install -y \
-#        git \
-#        curl \
-#        wget \
-#        libfreetype6-dev \
-#        libjpeg62-turbo-dev \
-#        libmcrypt-dev \
-#        libpng-dev zlib1g-dev libicu-dev g++ libmagickwand-dev --no-install-recommends libxml2-dev \
-    #&& docker-php-ext-configure intl \
-    #&& docker-php-ext-install intl \
-    #&& docker-php-ext-install mbstring zip xml gd \
-    #&& pecl install imagick \
-    #&& docker-php-ext-enable imagick \
-    #&& pecl install xdebug-2.5.0 \
-    #&& docker-php-ext-enable xdebug
+RUN apt-get update && apt-get install -y \
+        git \
+        curl \
+        wget \
+        libfreetype6-dev \
+        libjpeg62-turbo-dev \
+        libmcrypt-dev \
+        libpng-dev zlib1g-dev libicu-dev g++ libmagickwand-dev --no-install-recommends libxml2-dev \
+    && docker-php-ext-configure intl \
+    && docker-php-ext-install intl \
+    && docker-php-ext-install mbstring zip xml gd \
+    && pecl install imagick \
+    && docker-php-ext-enable imagick \
+    && pecl install xdebug-2.5.0 \
+    && docker-php-ext-enable xdebug
 
 
 
