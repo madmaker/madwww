@@ -1,4 +1,9 @@
 {
+  "config": {
+    "platform": {
+      "php": "5.6"
+    }
+  },
   "require": {
     "ezyang/htmlpurifier":"4.7.0",
     "pelago/emogrifier": "v3.1.0",
